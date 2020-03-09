@@ -1,0 +1,17 @@
+﻿
+<div class="status-message">
+    @ViewData["Error"]
+</div>
+<form class="input-form" action="invoice" method="post">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Subject" name="subject" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="Contact ID" name="contactId" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="Product ID" name="productId" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="Pricebook ID" name="pricebookId" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="Product description" name="prodDescription" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" placeholder="Quantity" name="quantity" aria-describedby="basic-addon1">
+        @*Add more products - inputs for product and quantity after click*@ 
+        <br />
+        <button class="btn btn-lg btn-secondary">Submit</button>
+    </div>
+</form>
